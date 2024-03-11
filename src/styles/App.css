@@ -1,0 +1,86 @@
+.app {
+    text-align: center;
+    background-color: #282c34;
+    height: 100vh;
+    padding-top: 60px;
+}
+
+.form-contact__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #222;
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+}
+
+.form-contact__container label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.form-contact__container input,
+.form-contact__container select,
+.form-contact__container textarea {
+    width: 300px;
+    padding: 8px 8px 8px 16px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.form-contact__container input {
+    text-align: center;
+}
+
+.form-contact__container select {
+    text-align: center;
+    width: 80%;
+}
+
+.form-contact__container textarea {
+    resize: vertical;
+    text-align: left;
+    height: 22px;
+}
+
+.btn-submit {
+    width: 30%;
+    align-self: flex-end;
+    padding: 10px;
+    margin-top: 1rem;
+    margin-right: 2.5rem;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background-color: #45a049;
+}
+
+.error-container {
+    text-align: left;
+    width: 100%;
+}
+
+.errorMessage {
+    color: red;
+    margin-top: 5px;
+    margin-left: 40px;
+    text-align: left;
+    font-size: small;
+}
+
+.welcome-message {
+    margin-top: 20px;
+    padding: 2rem;
+    font-size: large;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
